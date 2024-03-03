@@ -2,15 +2,18 @@
   "name": "backend_project",
   "version": "1.0.0",
   "description": "This is the backend project using javascript",
-  "type":"module",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-   "dev":"nodemon src/index.js"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "Backend",
     "JavaScript"
   ],
   "author": "Utkarsh Kumar Verma",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^3.2.5"
+  }
 }
